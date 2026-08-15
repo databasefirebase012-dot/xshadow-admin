@@ -1,0 +1,12 @@
+// language: JSON, file: package.json, target: Vercel / Node.js
+{
+  "name": "homeforce-controller",
+  "version": "1.0.0",
+  "description": "HomeForce Cyber Terminal Proxy Gateway",
+  "main": "api/dispatch.js",
+  "private": true,
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {}
+}
